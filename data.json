@@ -1,0 +1,1241 @@
+{
+    "sid": 0,
+    "name": "Guida alle piante del PAM",
+    "children":
+    [
+        {
+            "sid": 10,
+            "name": "Le piante sono alberi o arbusti",
+            "children": [
+                {
+                    "sid": 200,
+                    "name": "Le piante sono alberi",
+                    "children": 
+                    [
+                        {
+                            "sid": 210,
+                            "name": "Foglie aghiformi o squamiformi",
+                            "children": [
+                                {
+                                    "sid": 220,
+                                    "name": "Foglie ad ago",
+                                    "children": [
+                                        {
+                                            "sid": 230,
+                                            "name": "Aghi singoli",
+                                            "children": [
+                                                {
+                                                    "sid": 240,
+                                                    "name": "Aghi piatti",
+                                                    "children": [
+                                                        {
+                                                            "sid": 824010,
+                                                            "name": "Aghi piatti con due strie bianche nella pagina inferiore",
+                                                            "children": [
+                                                                {
+                                                                    "sid": 924010,
+                                                                    "name": "Abete bianco",
+                                                                    "end": true
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "sid": 824020,
+                                                            "name": "Aghi piatti, flessibili di colore verde scuro ed appuntiti",
+                                                            "children": [
+                                                                {
+                                                                    "sid": 924020,
+                                                                    "name": "Tasso",
+                                                                    "end": true
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "sid": 823020,
+                                                    "name": "Aghi a sezione triangolare",
+                                                    "children": [
+                                                        {
+                                                            "sid": 923020,
+                                                            "name": "Abete rosso",
+                                                            "end": true
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "sid": 250,
+                                            "name": "Ciuffi di più aghi",
+                                            "children": [
+                                                {
+                                                    "sid": 260,
+                                                    "name": "Ciuffi di 2 aghi",
+                                                    "children": [
+                                                        {
+                                                            "sid": 826010,
+                                                            "name": "Foglie più lunghe di 7 cm, corteccia grigia",
+                                                            "children": [
+                                                                {
+                                                                    "sid": 926010,
+                                                                    "name": "Pino nero",
+                                                                    "end": true
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "sid": 826020,
+                                                            "name": "Foglie lunghe al massimo 7 cm, corteccia rossastra",
+                                                            "children": [
+                                                                {
+                                                                    "sid": 926020,
+                                                                    "name": "Pino silvestre",
+                                                                    "end": true
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "sid": 270,
+                                                    "name": "Ciuffi con più di 2 aghi",
+                                                    "children": [
+                                                        {
+                                                            "sid": 827010,
+                                                            "name": "Ciuffi con 5 aghi",
+                                                            "children": [
+                                                                {
+                                                                    "sid": 927010,
+                                                                    "name": "Pino strobo",
+                                                                    "end": true
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "sid": 827020,
+                                                            "name": "Ciuffi con 6 o più aghi",
+                                                            "children": [
+                                                                {
+                                                                    "sid": 927020,
+                                                                    "name": "Larice",
+                                                                    "end": true
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "sid": 280,
+                                    "name": "Foglie squamiformi",
+                                    "children": [
+                                        {
+                                            "sid": 828010,
+                                            "name": "Rametti angolosi, disposti in tutti i sensi, pigne sferiche",
+                                            "children": [
+                                                {
+                                                    "sid": 928010,
+                                                    "name": "Cipresso comune",
+                                                    "end": true
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "sid": 828020,
+                                            "name": "Rametti appiattiti, disposti sullo stesso piano, pigne ovali",
+                                            "children": [
+                                                {
+                                                    "sid": 928020,
+                                                    "name": "Thuja orientale",
+                                                    "end": true
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "sid": 290,
+                            "name": "Foglie a superficie estesa",
+                            "children": [
+                                {
+                                    "sid": 300,
+                                    "name": "Foglie semplici",
+                                    "children": [
+                                        {
+                                            "sid": 310,
+                                            "name": "Foglie più o meno coriacee con la pagina superiore spesso lucida",
+                                            "children": [
+                                                {
+                                                    "sid": 330,
+                                                    "name": "Foglie con margine seghettato",
+                                                    "children": [
+                                                        {
+                                                            "sid": 340,
+                                                            "name": "Foglie con lamina di forma ovale-ellittica, tonda",
+                                                            "children": [
+                                                                {
+                                                                    "sid": 834010,
+                                                                    "name": "Foglie con lamina  ovale, verde scuro , pelosa nella pagina inferiore",
+                                                                    "children": [
+                                                                        {
+                                                                            "sid": 934010,
+                                                                            "name": "Susino",
+                                                                            "end": true
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "sid": 834020,
+                                                                    "name": "Foglie con lamina ovale, talvolta ondulata e con apice, lunghe da 6-8 a 15 cm; corteccia con lenticelle disposte ad anelli orizzontali, in età avanzata fessurata e divisa in placche quadrangolari parzialmente distaccate dal fusto",
+                                                                    "children": [
+                                                                        {
+                                                                            "sid": 934020,
+                                                                            "name": "Ciliegio tardivo",
+                                                                            "end": true
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "sid": 350,
+                                                            "name": "Foglie con lamina diversa",
+                                                            "children": [
+                                                                {
+                                                                    "sid": 360,
+                                                                    "name": "Foglie con lamina da ovale a lanceolata",
+                                                                    "children": [
+                                                                        {
+                                                                            "sid": 836010,
+                                                                            "name": "Fusto di modeste dimensioni, alto fino a 8m, corteccia bruno cinerina con rami radi divaricati rosso bruni",
+                                                                            "children": [
+                                                                                {
+                                                                                    "sid": 936010,
+                                                                                    "name": "Pesco",
+                                                                                    "end": true
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "sid": 320,
+                                                    "name": "Foglie con margine intero",
+                                                    "children": [
+                                                        {
+                                                            "sid": 832010,
+                                                            "name": "Foglie con lamina grande obovata od ellittica, glabre lucenti sulla pagina superiore, verde chiaro talvolta argenteo sulla pagina inferiore",
+                                                            "children": [
+                                                                {
+                                                                    "sid": 932010,
+                                                                    "name": "Kaki",
+                                                                    "end": true
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "sid": 370,
+                                            "name": "Foglie di consistenza erbacea",
+                                            "children": [
+                                                {
+                                                    "sid": 380,
+                                                    "name": "Foglie con lamina lanceolata (decisamente più lunghe che larghe)",
+                                                    "children": [
+                                                        {
+                                                            "sid": 838010,
+                                                            "name": "Foglie adulte più lunghe di 4cm, pagina inferiore ricoperta di peli argentei",
+                                                            "children": [
+                                                                {
+                                                                    "sid": 938010,
+                                                                    "name": "Salice",
+                                                                    "end": true
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "sid": 838020,
+                                                            "name": "Foglie con pagina inferiore priva di peli argentei e margine con denti evidenti",
+                                                            "children": [
+                                                                {
+                                                                    "sid": 938020,
+                                                                    "name": "Castagno",
+                                                                    "end": true
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "sid": 390,
+                                                    "name": "Foglie con  lamina di forma ovale ellittica, tonda, triangolare-romboidale, con o senza incisioni",
+                                                    "children": [
+                                                        {
+                                                            "sid": 400,
+                                                            "name": "Foglie di forma ovale-ellittica, intera o con incisioni",
+                                                            "children": [
+                                                                {
+                                                                    "sid": 410,
+                                                                    "name": "Foglie incise da lobi",
+                                                                    "children": [
+                                                                        {
+                                                                            "sid": 420,
+                                                                            "name": "Foglie a margine liscio",
+                                                                            "children": [
+                                                                                {
+                                                                                    "sid": 842010,
+                                                                                    "name": "Foglie con alla base due vistose orecchiette",
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "sid": 942010,
+                                                                                            "name": "Farnia",
+                                                                                            "end": true
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "sid": 842020,
+                                                                                    "name": "Foglie con lamina lobata con 5-8 lobi arrotondati per lato e dentati sulla stessa pianta; foglie con alla base due orecchiette asimmetriche",
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "sid": 942020,
+                                                                                            "name": "Rovere",
+                                                                                            "end": true
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "sid": 430,
+                                                                            "name": "Foglie a margine dentato o seghettato",
+                                                                            "children": [
+                                                                                {
+                                                                                    "sid": 843010,
+                                                                                    "name": "Foglie piccole (≤10cm) con pagina inferiore bianca",
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "sid": 943010,
+                                                                                            "name": "Pioppo bianco",
+                                                                                            "end": true
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "sid": 440,
+                                                                                    "name": "Foglie grandi (>10cm)",
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "sid": 844010,
+                                                                                            "check": true,
+                                                                                            "name": "Foglie a divise in lobi profondi i cui margini hanno pochi denti grandi e acuti",
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "sid": 944010,
+                                                                                                    "name": "Quercia rossa",
+                                                                                                    "end": true
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "sid": 844020,
+                                                                                            "name": "Foglie divise in 5-7 lobi acuminati con margini seghettati, di colore verde brillante, lunghe da 12 a 15 cm e lungamente picciolate",
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "sid": 944020,
+                                                                                                    "name": "Liquidambar",
+                                                                                                    "end": true
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "sid": 844030,
+                                                                                            "name": "Foglie divisa in lobi poco profondi, senza peluria bianca sulla pagina inferiore",
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "sid": 944030,
+                                                                                                    "name": "Gelso bianco",
+                                                                                                    "end": true
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "sid": 844040,
+                                                                                            "name": "Foglie divise in 5-7 lobi con nervature evidenti e margini grossolanamente dentati, lunghe da 10 a 23 cm",
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "sid": 944040,
+                                                                                                    "name": "Platano",
+                                                                                                    "end": true
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "sid": 450,
+                                                                    "name": "Foglie intere prive di incisioni lobate",
+                                                                    "children": [
+                                                                        {
+                                                                            "sid": 460,
+                                                                            "name": "Foglie a margine dentato e con base simmetrica",
+                                                                            "children": [
+                                                                                {
+                                                                                    "sid": 846010,
+                                                                                    "name": "Foglie con larghezza massima centrale e pieghettate",
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "sid": 946010,
+                                                                                            "name": "Carpino",
+                                                                                            "end": true
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "sid": 846020,
+                                                                                    "name": "Foglie con apice acuto ben evidente e protuberanze rosse alla base del picciolo",
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "sid": 946020,
+                                                                                            "name": "Ciliegio",
+                                                                                            "end": true
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "sid": 845020,
+                                                                            "name": "Foglie a margine dentato e con base asimmetrica",
+                                                                            "children": [
+                                                                                {
+                                                                                    "sid": 945020,
+                                                                                    "name": "Olmo",
+                                                                                    "end": true
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "sid": 470,
+                                                            "name": "Foglie di forma diversa",
+                                                            "children": [
+                                                                {
+                                                                    "sid": 480,
+                                                                    "name": "Foglie con lamina a forma tonda (non a cuore) con o senza apice",
+                                                                    "children": [
+                                                                        {
+                                                                            "sid": 848010,
+                                                                            "name": "Foglie con margine dentato con pochi denti irregolari, distanziati tra loro",
+                                                                            "children": [
+                                                                                {
+                                                                                    "sid": 948010,
+                                                                                    "name": "Pioppo tremulo",
+                                                                                    "end": true
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "sid": 490,
+                                                                            "name": "Foglie con margine dentato  con denti fini o grossolani, numerosi e continui",
+                                                                            "children": [
+                                                                                {
+                                                                                    "sid": 849010,
+                                                                                    "name": "Foglie con apice evidente e larghezza massima nella zona centrale",
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "sid": 949010,
+                                                                                            "name": "Ontano bianco",
+                                                                                            "end": true
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "sid": 849020,
+                                                                                    "name": "Foglie con apice tronco e larghezza massima nella zona centrale",
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "sid": 949020,
+                                                                                            "name": "Ontano nero",
+                                                                                            "end": true
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "sid": 500,
+                                                                    "name": "Foglie con lamina a forma diversa",
+                                                                    "children": [
+                                                                        {
+                                                                            "sid": 510,
+                                                                            "name": "Foglie con lamina a forma di cuore",
+                                                                            "children": [
+                                                                                {
+                                                                                    "sid": 851010,
+                                                                                    "name": "Foglie a base asimmetrica",
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "sid": 951010,
+                                                                                            "name": "Tiglio",
+                                                                                            "end": true
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "sid": 851020,
+                                                                                    "name": "Foglie a base simmetrica, ruvide sopra, sotto pelosette",
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "sid": 951020,
+                                                                                            "name": "Gelso nero",
+                                                                                            "end": true
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "sid": 520,
+                                                                            "name": "Foglie con lamina a forma diversa",
+                                                                            "children": [
+                                                                                {
+                                                                                    "sid": 530,
+                                                                                    "name": "Foglie con lamina a forma triangolare-romboidale",
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "sid": 853010,
+                                                                                            "name": "Foglie con margini a denti arrotondati",
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "sid": 953010,
+                                                                                                    "name": "Pioppo cipressino",
+                                                                                                    "end": true
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "sid": 853020,
+                                                                                            "name": "Foglie con margini a denti fini",
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "sid": 953020,
+                                                                                                    "name": "Betulla",
+                                                                                                    "end": true
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "sid": 540,
+                                                                                    "name": "Foglie con lamina di forma diversa",
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "sid": 550,
+                                                                                            "name": "Larghezza foglie ≥ della lunghezza, divise in 3-5 lobi; lunghezza < 10cm",
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "sid": 855010,
+                                                                                                    "name": "Foglie con lobo apicale fra due incisioni profonde (~1/2 nervo principale)",
+                                                                                                    "children": [
+                                                                                                        {
+                                                                                                            "sid": 955010,
+                                                                                                            "name": "Acero oppio",
+                                                                                                            "end": true
+                                                                                                        }
+                                                                                                    ]
+                                                                                                },
+                                                                                                {
+                                                                                                    "sid": 855020,
+                                                                                                    "name": "Foglie con lobo apicale fra due incisioni poco profonde (1/6-1/3 nervo principale)",
+                                                                                                    "children": [
+                                                                                                        {
+                                                                                                            "sid": 955020,
+                                                                                                            "name": "Acero alpino",
+                                                                                                            "end": true
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "sid": 560,
+                                                                                            "name": "Larghezza foglie ≥ della lunghezza, divise in 3-5 lobi; lunghezza 10-16cm",
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "sid": 856010,
+                                                                                                    "name": "Foglie con pochi denti laterali ai lobi lunghi fino a 1 cm",
+                                                                                                    "children": [
+                                                                                                        {
+                                                                                                            "sid": 956010,
+                                                                                                            "name": "Acero riccio",
+                                                                                                            "end": true
+                                                                                                        }
+                                                                                                    ]
+                                                                                                },
+                                                                                                {
+                                                                                                    "sid": 856020,
+                                                                                                    "name": "Foglie con numerosi denti laterali ai lobi brevi",
+                                                                                                    "children": [
+                                                                                                        {
+                                                                                                            "sid": 956020,
+                                                                                                            "name": "Acero di monte",
+                                                                                                            "end": true
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "sid": 570,
+                                    "name": "Foglie composte",
+                                    "children": [
+                                        {
+                                            "sid": 580,
+                                            "name": "Foglie formate da foglioline  a margine intero",
+                                            "children": [
+                                                {
+                                                    "sid": 858010,
+                                                    "name": "Foglioline ovali-ellittiche in numero superiore a tre",
+                                                    "children": [
+                                                        {
+                                                            "sid": 958010,
+                                                            "name": "Robinia",
+                                                            "end": true
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "sid": 858020,
+                                                    "name": "Foglioline piuttosto grandi, con odore caratteristico",
+                                                    "children": [
+                                                        {
+                                                            "sid": 958020,
+                                                            "name": "Noce",
+                                                            "end": true
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "sid": 858030,
+                                                    "name": "Foglioline piuttosto grandi, con orecchiette alla base e odore ripugnante",
+                                                    "children": [
+                                                        {
+                                                            "sid": 958030,
+                                                            "name": "Ailanto",
+                                                            "end": true
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "sid": 590,
+                                            "name": "Foglie formate da foglioline  a margine non intero",
+                                            "children": [
+                                                {
+                                                    "sid": 600,
+                                                    "name": "Foglie imparipennate formate da foglioline con margine dentato",
+                                                    "children": [
+                                                        {
+                                                            "sid": 860010,
+                                                            "name": "11-13 foglioline lanceolate  con punte evidenti, base stretta, pelosette inferiormente",
+                                                            "children": [
+                                                                {
+                                                                    "sid": 966010,
+                                                                    "name": "Frassino",
+                                                                    "end": true
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "sid": 859020,
+                                                    "name": "Foglie palmato-settate con 5-7 foglioline oblanceolato-acuminati, glabre, sopra più scure e sublucide, sotto opache e più chiare con margine seghettato",
+                                                    "children": [
+                                                        {
+                                                            "sid": 959020,
+                                                            "name": "Ippocastano",
+                                                            "end": true
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "sid": 610,
+                    "name": "Le piante sono arbusti",
+                    "children": 
+                    [
+                        {
+                            "sid": 620,
+                            "name": "Foglie semplici",
+                            "children": [
+                                {
+                                    "sid": 630,
+                                    "name": "Foglie a lamina palmata",
+                                    "children": [
+                                        {
+                                            "sid": 863010,
+                                            "name": "Pianta a rami lisci di colore grigio, foglie trilobate con margine seghettato",
+                                            "children": [
+                                                {
+                                                    "sid": 963010,
+                                                    "name": "Pallon di maggio",
+                                                    "end": true
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "sid": 863020,
+                                            "name": "Pianta rampicante con numerosi rami detti tralci, foglie a 3/5 lobi, lamina cuoriforme",
+                                            "children": [
+                                                {
+                                                    "sid": 963020,
+                                                    "name": "Vite da uva",
+                                                    "end": true
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "sid": 640,
+                                    "name": "Foglie a lamina diversa",
+                                    "children": [
+                                        {
+                                            "sid": 650,
+                                            "name": "Foglie a lamina ovato/lanceolata",
+                                            "children": [
+                                                {
+                                                    "sid": 660,
+                                                    "name": "Foglie a lamina ovata",
+                                                    "children": [
+                                                        {
+                                                            "sid": 866010,
+                                                            "name": "Foglie a margine seghettato di circa 10 cm, con apice appuntito, disposta in modo alterno sul ramo",
+                                                            "children": [
+                                                                {
+                                                                    "sid": 966010,
+                                                                    "name": "Prugnolo",
+                                                                    "end": true
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "sid": 866020,
+                                                            "name": "Foglie a margine liscio profondamente lobato e inciso, con frutto costituito da piccoli pomi rossastri di 1/2 cm",
+                                                            "children": [
+                                                                {
+                                                                    "sid": 966020,
+                                                                    "name": "Biancospino",
+                                                                    "end": true
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "sid": 670,
+                                                    "name": "Foglie a lamina lanceolata",
+                                                    "children": [
+                                                        {
+                                                            "sid": 680,
+                                                            "name": "Foglie a margine liscio",
+                                                            "children": [
+                                                                {
+                                                                    "sid": 868010,
+                                                                    "name": "Pianta con fusto con nodi a cilindro cavo, il fusto presenta internodi cavi e nodi cilindrici molto evidenti dai quali si sviluppano foglie sottili e lanceolate.",
+                                                                    "children": [
+                                                                        {
+                                                                            "sid": 968010,
+                                                                            "name": "Bamboo",
+                                                                            "end": true
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "sid": 690,
+                                                                    "name": "Pianta diversa da sopra",
+                                                                    "children": [
+                                                                        {
+                                                                            "sid": 869010,
+                                                                            "name": "Foglie molto piccole molto distanziate sul ramo, lanceolate, i fiori sono portati a grappoli terminali di colore giallo grigio. Pianta a portamento arbustivo alta da 0,5 a 3m, perenne con fusti lunghi verdi e cilindrici.",
+                                                                            "children": [
+                                                                                {
+                                                                                    "sid": 969010,
+                                                                                    "name": "Ginestra",
+                                                                                    "end": true
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "sid": 869020,
+                                                                            "name": "Foglie di circa 6 cm alterne raccolte in gruppi, foglie persistenti brevemente picciolate. Infiorescenze terminali a pannocchia con fiori bianchi profumati, il frutto è una bacca nera tonda e piccola.",
+                                                                            "children": [
+                                                                                {
+                                                                                    "sid": 969020,
+                                                                                    "name": "Ligustro",
+                                                                                    "end": true
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "sid": 700,
+                                                            "name": "Foglie a margine dentato/seghettato",
+                                                            "children": [
+                                                                {
+                                                                    "sid": 870010,
+                                                                    "name": "Foglie a margine dentato, lamina di circa 6-10 cm, apice arrotondato con inserzioni anche alterne, fiore ermafrodita composto da 4 petali e 4 stami; frutto a capsule di 6-10 cm con semi rivestiti da un arillo carnoso rossastro.",
+                                                                    "children": [
+                                                                        {
+                                                                            "sid": 970010,
+                                                                            "name": "Berretta da prete",
+                                                                            "end": true
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "sid": 710,
+                                                                    "name": "Foglie a margine seghettato",
+                                                                    "children": [
+                                                                        {
+                                                                            "sid": 871010,
+                                                                            "name": "Foglie opposte, a seconda delle specie possono essere caduche o persistenti, brevemente picciolate con margini laminari interi o lievemente seghettati. Il fusto può essere tomentoso (aspetto fioccoso come di cotone) e di sezione quadrangolare. L’altezza varia da pochi metri a qualche decina.",
+                                                                            "children": [
+                                                                                {
+                                                                                    "sid": 971010,
+                                                                                    "name": "Budleja",
+                                                                                    "end": true
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "sid": 871020,
+                                                                            "name": "Foglie alterne, lamina coriacea di 7-12 cm; fiori a corolla urceolata giallastra di 5-10 mm. Riuniti in pannocchie pendole, frutto a bacca (capsula) tonda e rugosa, gialla e rossastra.",
+                                                                            "children": [
+                                                                                {
+                                                                                    "sid": 971020,
+                                                                                    "name": "Corbezzolo",
+                                                                                    "end": true
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "sid": 864020,
+                                            "name": "Foglie a lamina obovata di 8/12 cm, apice acuminato a base cordata o tronca leggermente pelose. Il frutto è una noce di 2 cm avvolto da brattee pelose con margine frastagliato",
+                                            "children": [
+                                                {
+                                                    "sid": 964020,
+                                                    "name": "Nocciolo",
+                                                    "end": true
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "sid": 720,
+                            "name": "Foglie composte",
+                            "children": [
+                                {
+                                    "sid": 730,
+                                    "name": "pianta a fusto spinoso",
+                                    "children": [
+                                        {
+                                            "sid": 873010,
+                                            "name": "Foglie a margine dentato con 5/7 foglioline. Le foglie sono assai grandi ovali o ovali ellittiche, foglie glabre o pubescenti, a nervature secondarie e senza ghiandole a denti semplici, o doppi. Fiori rosei o biancastri. Stili pelosi, raramente glabri.",
+                                            "children": [
+                                                {
+                                                    "sid": 973010,
+                                                    "name": "Rosa canina",
+                                                    "end": true
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "sid": 873020,
+                                            "name": "Foglie con 3/5 foglioline seghettate. Frutti riuniti in infruttescenze, a sorosio rosse o nere.",
+                                            "children": [
+                                                {
+                                                    "sid": 973020,
+                                                    "name": "Rovo",
+                                                    "end": true
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "sid": 740,
+                                    "name": "Pianta a fusto non spinoso",
+                                    "children": [
+                                        {
+                                            "sid": 874010,
+                                            "name": "Foglie rossastre sopra d'estate e verde lucido scuro sotto. Pianta rampicante, a foglie decidue, piuttosto rustica. Presenta colori vivaci del fogliame e infiorescenze verdastre inodori. Le foglie sono trilobate ed i frutti sono piccole bacche di colore bluastro",
+                                            "children": [
+                                                {
+                                                    "sid": 974010,
+                                                    "name": "Vite canadese",
+                                                    "end": true
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "sid": 874020,
+                                            "name": "Foglie sopra verde scuro e verde chiaro sotto. Frutti costituiti da drupe nere raccolte in infruttescenza terminali a ombrello.",
+                                            "children": [
+                                                {
+                                                    "sid": 974020,
+                                                    "name": "Sambuco",
+                                                    "end": true
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sid": 20,
+            "name": "Le piante sono erbacee",
+            "children": [
+                {
+                    "sid": 30,
+                    "name": "Foglie semplici con lamina intera o incisa",
+                    "children": 
+                    [
+                        {
+                            "sid": 40,
+                            "name": "Foglie con lamina intera",
+                            "children": [
+                                {
+                                    "sid": 50,
+                                    "name": "Foglie pelose",
+                                    "children": [
+                                        {
+                                            "sid": 60,
+                                            "name": "Margine fogliare liscio",
+                                            "children": [
+                                                {
+                                                    "sid": 806010,
+                                                    "name": "Lamina fogliare cuoriforme",
+                                                    "children": [
+                                                        {
+                                                            "sid": 906010,
+                                                            "name": "Viola",
+                                                            "end": true
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "sid": 70,
+                                            "name": "Margine fogliare dentato",
+                                            "children": [
+                                                {
+                                                    "sid": 807010,
+                                                    "name": "Lamina fogliare ovale oblunga con base cuoriforme",
+                                                    "children": [
+                                                        {
+                                                            "sid": 907010,
+                                                            "name": "Ortica",
+                                                            "end": true
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "sid": 807020,
+                                                    "name": "Lamina fogliare lanceolata, apice acuto",
+                                                    "children": [
+                                                        {
+                                                            "sid": 907020,
+                                                            "name": "Menta",
+                                                            "end": true
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "sid": 80,
+                                    "name": "Foglie non pelose",
+                                    "children": [
+                                        {
+                                            "sid": 808010,
+                                            "name": "Lamina fogliare apparentemente bucherellata in controluce per la trasparenza delle ghiandole oleose presenti",
+                                            "children": [
+                                                {
+                                                    "sid": 908010,
+                                                    "name": "Hiperico",
+                                                    "end": true
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "sid": 90,
+                                            "name": "Lamina fogliare priva di ghiandole oleose",
+                                            "children": [
+                                                {
+                                                    "sid": 100,
+                                                    "name": "Lamina fogliare oblunga, lanceolata o ellittica",
+                                                    "children": [
+                                                        {
+                                                            "sid": 110,
+                                                            "name": "Lamina fogliare oblunga, lanceolata",
+                                                            "children": [
+                                                                {
+                                                                    "sid": 911010,
+                                                                    "name": "Margine fogliare liscio"
+                                                                },
+                                                                {
+                                                                    "sid": 120,
+                                                                    "name": "Margine fogliare liscio e bianco",
+                                                                    "children": [
+                                                                        {
+                                                                            "sid": 812010,
+                                                                            "name": "Pagina inferiore della foglia con nervature prominenti rosse",
+                                                                            "children": [
+                                                                                {
+                                                                                    "sid": 912010,
+                                                                                    "name": "Fitolacca",
+                                                                                    "end": true
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "sid": 130,
+                                                                            "name": "Pagina inferiore della foglia senza nervature prominenti",
+                                                                            "children": [
+                                                                                {
+                                                                                    "sid": 813010,
+                                                                                    "name": "Pianta alta da 8 cm a 50 cm",
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "sid": 913010,
+                                                                                            "name": "Primula",
+                                                                                            "end": true
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "sid": 813020,
+                                                                                    "name": "Pianta alta dai 50 cm ai 2 m",
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "sid": 913020,
+                                                                                            "name": "Verga d'oro del Canadà",
+                                                                                            "end": true
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "sid": 140,
+                                                            "name": "Lamina fogliare ellittica",
+                                                            "children": [
+                                                                {
+                                                                    "sid": 814010,
+                                                                    "name": "Foglie giovani con superficie pieghettata longitudinalmente, glauche di sotto",
+                                                                    "children": [
+                                                                        {
+                                                                            "sid": 914010,
+                                                                            "name": "Sigillo di Salomone",
+                                                                            "end": true
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "sid": 809020,
+                                                    "name": "Lamina fogliare  lobata divisa in 4-5 lobi",
+                                                    "children": [
+                                                        {
+                                                            "sid": 909020,
+                                                            "name": "Edera",
+                                                            "end": true
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "sid": 150,
+                            "name": "Foglie con lamina incisa per almeno metà",
+                            "children": [
+                                {
+                                    "sid": 160,
+                                    "name": "Foglie con lamina incisa per almeno metà, pennatopartite",
+                                    "children": [
+                                        {
+                                            "sid": 816010,
+                                            "name": "Foglie frastagliate di colore verde intenso sulla pagina superiore, e argenteo biancastra su quella inferiore, sessili le apicali, leggermente picciolate le basali, aromatiche e con margine dentato",
+                                            "children": [
+                                                {
+                                                    "sid": 916010,
+                                                    "name": "Artemisia",
+                                                    "end": true
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "sid": 816020,
+                                            "name": "Foglie profondamente frastagliate con nervatura biancastra, alla base opposte, alternate man mano che si sale  con piccioli alati  non aromatiche e con margine intero o dentato",
+                                            "children": [
+                                                {
+                                                    "sid": 916020,
+                                                    "name": "Ambrosia",
+                                                    "end": true
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "sid": 815020,
+                                    "name": "Foglie con lamina frastagliata e con lobi triangolari",
+                                    "children": [
+                                        {
+                                            "sid": 915020,
+                                            "name": "Tarassaco",
+                                            "end": true
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "sid": 170,
+                    "name": "Foglie composte",
+                    "children": 
+                    [
+                        {
+                            "sid": 180,
+                            "name": "Foglie trifogliate",
+                            "children": [
+                                {
+                                    "sid": 818010,
+                                    "name": "Margine fogliare liscio; foglioline ovali a margine intero, recanti sulla loro faccia superiore una banda a V di colore verde chiaro",
+                                    "children": [
+                                        {
+                                            "sid": 918010,
+                                            "name": "Trifoglio",
+                                            "end": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "sid": 818020,
+                                    "name": "Margine fogliare dentato",
+                                    "children": [
+                                        {
+                                            "sid": 918020,
+                                            "name": "Fragola",
+                                            "end": true
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "sid": 190,
+                            "name": "Foglie non trifogliate",
+                            "children": [
+                                {
+                                    "sid": 819010,
+                                    "name": "Foglie imparipennate con due-cinque paia di foglioline ovali inegualmente dentate a base cuneata, delle quali la terminale è normalmente più grande delle altre e spesso divisa in tre lobi. Le foglie inferiori e quelle basali hanno un picciolo, le superiori sono sessili; il colore è verde cinereo con la superficie inferiore più chiara",
+                                    "children": [
+                                        {
+                                            "sid": 919010,
+                                            "name": "Chelidonia",
+                                            "end": true
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

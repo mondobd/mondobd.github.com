@@ -1,0 +1,136 @@
+@import "tree";
+@import "compass/css3/box-sizing";
+@import "compass/css3/transition";
+@import "compass/css3/filter";
+@import "compass/css3/images";
+@import "compass/utilities/general/clearfix";
+@import "mondobd/vendor/flexslider.css";
+@import "mondobd/vendor/colorbox/colorbox.css";
+
+$background-color: rgba(255, 204, 0, 0.5);
+$navbar-background: #2c2c2c;
+$navbar-color: white;
+$navbar-text-shadow: #aaa;
+$description-background: rgba(30, 30, 30, 0.6);
+$description-text-color: rgba(255, 255, 255, 1);
+$main-font: 'Open Sans';
+
+body {
+  font-family: $main-font;
+}
+
+.navbar ul.nav > li {
+  cursor: pointer;
+}
+
+.chart {
+  position: relative;
+  background-color: $background-color;
+  
+  &, & * {
+    @include box-sizing(border-box);
+  }
+  
+  ul.slides {
+    li {
+      opacity: 0.3;
+    }
+    li.flex-active-slide {
+      opacity: 1;
+    }
+  }
+  
+  // show non-current slides for extra awesome
+  .flex-viewport {
+    overflow: visible !important;
+  }
+  
+  li {
+    list-style: none;
+  }
+}
+
+.choice-container {
+  float: left;
+  width: 50%;
+  padding: 1em;
+  
+  &.end {
+    float: none !important;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  
+  .item {
+    position: relative;
+  }
+  
+  .description {
+    position: absolute;
+    background: $description-background;
+    bottom: 0;
+    width: 100%;
+    padding: 0.5em;
+    color: $description-text-color;
+  }
+  
+  img {
+    width: 100%;
+  }
+}
+
+.repeat-choice, .no-choice {
+  display: block;
+  text-align: center;
+  color: inherit;
+  @include transition(color 1s ease-in-out);
+}
+
+li.choice-group {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 1em;
+  // height: 400px;
+  background-color: $background-color;
+  position: relative;
+  
+  @include clearfix;
+  
+  &:not(:last-child) {
+    .choice-container {
+      &.chosen {
+
+      }
+      
+      &:not(.chosen) {
+        @include filter(grayscale(90%));
+        opacity: 0.5;
+      }
+    }
+  }
+  
+  &:last-child {
+    .repeat-choice {
+      color: transparent;
+    }
+    
+    .choice-container {
+      float: left;
+      min-height: 2em;
+      padding: 1em;
+    }
+  }
+}
+
+/* Twitter Boostrap overrides */
+.navbar-inner {
+  background-color: #2c2c2c;
+  /* Gradients for modern browsers, replace as you see fit */
+  @include background-image(linear-gradient(top, #666666, #222222));
+  
+  & * {
+    color: $navbar-color !important;
+    text-shadow: $navbar-text-shadow !important;
+  }
+}
