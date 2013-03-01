@@ -1,6 +1,7 @@
-'use strict';
+(function () {
 
-define([], function() {
+
+define('app',[], function() {
 
 var tree_canvas = {
     w: 960,
@@ -396,3 +397,21 @@ $(".navbar li#restart a").click(function() {
 
 return 'Hello from Yeoman!';
 });
+
+require.config({
+  shim: {
+  },
+
+  paths: {
+    hm: 'vendor/hm',
+    esprima: 'vendor/esprima',
+    jquery: 'vendor/jquery.min'
+  }
+});
+ 
+require(['app'], function(app) {
+  // use app here
+  console.log(app);
+});
+define("main", function(){});
+}());
