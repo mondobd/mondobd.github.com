@@ -1,6 +1,6 @@
 CACHE MANIFEST
 
-# Time: Fri Mar 01 2013 13:30:43 GMT+0000 (UTC)
+# Time: Fri Mar 01 2013 13:37:30 GMT+0000 (UTC)
 # This manifest was created by confess.js, http://github.com/jamesgpearce/confess
 #
 # Retrieved URL: http://localhost:3501/
@@ -58,6 +58,7 @@ styles/mondobd/vendor/colorbox/images/loading.gif
 styles/mondobd/vendor/colorbox/images/loading_background.png
 styles/mondobd/vendor/colorbox/images/overlay.png
 scripts/main.js
+scripts/app.js
 scripts/vendor/214ee334.jquery.mousewheel.js
 scripts/vendor/3735cba4.underscore.min.js
 scripts/vendor/3ca99a42.jquery.colorbox-min.js
