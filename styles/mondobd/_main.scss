@@ -19,6 +19,16 @@ body {
   font-family: $main-font;
 }
 
+#preload-images {
+  display: none;
+  position: absolute;
+  left: -9999px;
+}
+
+.container {
+  width: 800px;
+}
+
 .navbar ul.nav > li {
   cursor: pointer;
 }
