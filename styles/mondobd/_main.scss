@@ -33,6 +33,10 @@ body {
   cursor: pointer;
 }
 
+.flex-direction-nav {
+  display: none;
+}
+
 .chart {
   position: relative;
   background-color: $background-color;
@@ -49,6 +53,7 @@ body {
       opacity: 1;
     }
   }
+  
   
   // show non-current slides for extra awesome
   .flex-viewport {
