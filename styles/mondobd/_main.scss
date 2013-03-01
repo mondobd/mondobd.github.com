@@ -26,7 +26,8 @@ body {
 }
 
 .container {
-  width: 800px;
+  margin-top: 10px !important; // override FlexSlider's inline style
+  width: 800px; // narrower to fit the project's tablets
 }
 
 .navbar ul.nav > li {
