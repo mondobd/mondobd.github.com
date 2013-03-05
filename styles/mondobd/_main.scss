@@ -85,12 +85,18 @@ body {
   .description {
     position: absolute;
     background: $description-background;
-    bottom: 0;
+    top: 0;
     width: 100%;
     padding: 0.5em;
     color: $description-text-color;
+    z-index: 10;
   }
   
+  /*.image > ul {
+    width: 100%;
+    margin: 0;
+  }*/
+
   img {
     width: 100%;
   }
@@ -123,6 +129,13 @@ li.choice-group {
         @include filter(grayscale(90%));
         opacity: 0.5;
       }
+    }
+  }
+  
+  &[data-children-count="1"] {
+    .repeat-choice {
+      color: transparent;
+      visibility: hidden;
     }
   }
   

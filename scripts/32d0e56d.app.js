@@ -1,7 +1,6 @@
-(function () {
+'use strict';
 
-
-define('app',[], function() {
+define([], function() {
 
 var tree_canvas = {
     w: 960,
@@ -88,7 +87,9 @@ function flatten(list) {
       sid: element.sid,
       name: element.name,
       children: _.map(element.children, function(child) { return child.sid; }),
-      end: element.end ? element.end : false
+      end: element.end ? element.end : false,
+      card: element.card ? element.card : false,
+      photo_count: element.photo_count ? element.photo_count : false
     });
     if(element.children) {
       flatten(element.children);
@@ -133,31 +134,14 @@ function update(matrix) {
     .enter()
       .append("li")
       .attr("class", "choice-group")
+      .each(function(d, i) { d3.select(this).attr("data-children-count", d.length); })
       .each(function(d, i) { if(flexslider) { flexslider.addSlide(this); flexslider.flexslider('next'); } });
-
-  /*
+    
     choice_groups
-    .append("span")
-    .attr("class", "repeat-choice")
-    .text("Modifica questa scelta")
-    .on("click", repeat_choice);
-  */
-  choice_groups
-    .each(function(d, i) {
-      console.log('choice group n. ' + i);
-      if(d.length > 1) {
-        d3.select(this)
-          .append("span")
-          .attr("class", "repeat-choice")
-          .text("Modifica questa scelta")
-          .on("click", repeat_choice);
-      } else {
-        d3.select(this)
-          .append("span")
-          .attr("class", "no-choice")
-          .html("&nbsp;");
-      }
-    });
+      .append("span")
+      .attr("class", "repeat-choice")
+      .text("Modifica questa scelta")
+      .on("click", repeat_choice);
     
   var choices = choice_groups.selectAll("div")
       .data(function(d) { console.log(["d is", d]); return d; });
@@ -189,11 +173,45 @@ function update(matrix) {
       d3.select(this).select("div")
         .append("div")
         .attr("class", "image")
-        .append("img")
+        .call(add_images, d);
+/*        .append("img")
         .attr("src", "images/items/" + d.sid + ".jpg");
+*/
+/*      $(this).find(".image:has([data-slider])").flexslider({
+          animation: 'fade',
+          slideshow: true,
+          animationLoop: true,
+          mousewheel: false,
+          controlNav: false,
+          directionNav: false,
+          keyboard: false
+      }); */
+        $(this).find(".image[data-slider]").cycle();
     });
 
   choice_groups_data.exit().remove();
+}
+
+function add_images(selection, d) {
+  // var photo_count = typeof(d.photo_count === "undefined") ? 1 : d.photo_count;
+  var photo_count = d.photo_count === false ? 1 : d.photo_count;
+
+/*  selection = selection
+    .append("ul");
+*/
+  if(photo_count > 1) {
+    selection = selection
+      .attr("data-photo-count", photo_count)
+      .attr("data-slider", "true");
+      // .attr("class", "slides");
+  }
+  
+  _.each(_.range(1, photo_count + 1), function(element, index, list) {
+    selection
+      // .append("li")
+      .append("img")
+      .attr("src", "images/items/" + d.sid + "_" + index + ".jpg");
+  });
 }
 
 function activate_colorbox(selection, d) {
@@ -397,21 +415,3 @@ $(".navbar li#restart a").click(function() {
 
 return 'Hello from Yeoman!';
 });
-
-require.config({
-  shim: {
-  },
-
-  paths: {
-    hm: 'vendor/hm',
-    esprima: 'vendor/esprima',
-    jquery: 'vendor/jquery.min'
-  }
-});
- 
-require(['app'], function(app) {
-  // use app here
-  console.log(app);
-});
-define("main", function(){});
-}());

@@ -6,6 +6,7 @@
         {
             "sid": 10,
             "name": "Le piante sono alberi o arbusti",
+            "photo_count": 2,
             "children": [
                 {
                     "sid": 200,
