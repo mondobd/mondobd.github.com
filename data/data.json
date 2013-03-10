@@ -16,6 +16,7 @@
                         {
                             "sid": 210,
                             "name": "Foglie aghiformi o squamiformi",
+                            "photo_count": 2,
                             "children": [
                                 {
                                     "sid": 220,
@@ -201,17 +202,6 @@
                                                                             "end": true
                                                                         }
                                                                     ]
-                                                                },
-                                                                {
-                                                                    "sid": 834030,
-                                                                    "name": "Foglie con lamina ovale quasi tonda",
-                                                                    "children": [
-                                                                        {
-                                                                            "sid": 934030,
-                                                                            "name": "Melo",
-                                                                            "end": true
-                                                                        }
-                                                                    ]
                                                                 }
                                                             ]
                                                         },
@@ -219,6 +209,17 @@
                                                             "sid": 350,
                                                             "name": "Foglie con lamina diversa",
                                                             "children": [
+                                                                {
+                                                                    "sid": 835010,
+                                                                    "name": "Foglie con lamina ovale quasi tonda",
+                                                                    "children": [
+                                                                        {
+                                                                            "sid": 935010,
+                                                                            "name": "Melo",
+                                                                            "end": true
+                                                                        }
+                                                                    ]
+                                                                },
                                                                 {
                                                                     "sid": 360,
                                                                     "name": "Foglie con lamina da ovale a lanceolata",
@@ -274,6 +275,7 @@
                                                                 {
                                                                     "sid": 938010,
                                                                     "name": "Salice",
+                                                                    "photo_count": 2,
                                                                     "end": true
                                                                 }
                                                             ]
@@ -508,6 +510,7 @@
                                                                                 {
                                                                                     "sid": 851010,
                                                                                     "name": "Foglie a base asimmetrica",
+                                                                                    "photo_count": 2,
                                                                                     "children": [
                                                                                         {
                                                                                             "sid": 951010,
@@ -583,10 +586,12 @@
                                                                                                 {
                                                                                                     "sid": 855020,
                                                                                                     "name": "Foglie con lobo apicale fra due incisioni poco profonde (1/6-1/3 nervo principale)",
+                                                                                                    "photo_count": 2,
                                                                                                     "children": [
                                                                                                         {
                                                                                                             "sid": 955020,
                                                                                                             "name": "Acero alpino",
+                                                                                                            "photo_count": 2,
                                                                                                             "end": true
                                                                                                         }
                                                                                                     ]
@@ -646,6 +651,7 @@
                                                 {
                                                     "sid": 858010,
                                                     "name": "Foglioline ovali-ellittiche in numero superiore a tre",
+                                                    "photo_count": 2,
                                                     "children": [
                                                         {
                                                             "sid": 958010,
@@ -693,6 +699,7 @@
                                                                 {
                                                                     "sid": 966010,
                                                                     "name": "Frassino",
+                                                                    "photo_count": 2,
                                                                     "end": true
                                                                 }
                                                             ]
@@ -749,6 +756,7 @@
                                                 {
                                                     "sid": 963020,
                                                     "name": "Vite da uva",
+                                                    "photo_count": 2,
                                                     "end": true
                                                 }
                                             ]
@@ -762,6 +770,7 @@
                                         {
                                             "sid": 650,
                                             "name": "Foglie a lamina ovato/lanceolata",
+                                            "photo_count": 2,
                                             "children": [
                                                 {
                                                     "sid": 660,
@@ -781,6 +790,7 @@
                                                         {
                                                             "sid": 866020,
                                                             "name": "Foglie a margine liscio profondamente lobato e inciso, con frutto costituito da piccoli pomi rossastri di 1/2 cm",
+                                                            "photo_count": 2,
                                                             "children": [
                                                                 {
                                                                     "sid": 966020,
@@ -802,10 +812,12 @@
                                                                 {
                                                                     "sid": 868010,
                                                                     "name": "Pianta con fusto con nodi a cilindro cavo, il fusto presenta internodi cavi e nodi cilindrici molto evidenti dai quali si sviluppano foglie sottili e lanceolate.",
+                                                                    "photo_count": 2,
                                                                     "children": [
                                                                         {
                                                                             "sid": 968010,
                                                                             "name": "Bamboo",
+                                                                            "photo_count": 2,
                                                                             "end": true
                                                                         }
                                                                     ]
@@ -847,6 +859,7 @@
                                                                 {
                                                                     "sid": 870010,
                                                                     "name": "Foglie a margine dentato, lamina di circa 6-10 cm, apice arrotondato con inserzioni anche alterne, fiore ermafrodita composto da 4 petali e 4 stami; frutto a capsule di 6-10 cm con semi rivestiti da un arillo carnoso rossastro.",
+                                                                    "photo_count": 2,
                                                                     "children": [
                                                                         {
                                                                             "sid": 970010,
@@ -873,11 +886,13 @@
                                                                         {
                                                                             "sid": 871020,
                                                                             "name": "Foglie alterne, lamina coriacea di 7-12 cm; fiori a corolla urceolata giallastra di 5-10 mm. Riuniti in pannocchie pendole, frutto a bacca (capsula) tonda e rugosa, gialla e rossastra.",
+                                                                            "photo_count": 2,
                                                                             "children": [
                                                                                 {
                                                                                     "sid": 971020,
                                                                                     "name": "Corbezzolo",
-                                                                                    "end": true
+                                                                                    "end": true,
+                                                                                    "photo_count": 3
                                                                                 }
                                                                             ]
                                                                         }
@@ -897,6 +912,7 @@
                                                 {
                                                     "sid": 964020,
                                                     "name": "Nocciolo",
+                                                    "photo_count": 2,
                                                     "end": true
                                                 }
                                             ]
@@ -944,10 +960,12 @@
                                         {
                                             "sid": 874010,
                                             "name": "Foglie rossastre sopra d'estate e verde lucido scuro sotto. Pianta rampicante, a foglie decidue, piuttosto rustica. Presenta colori vivaci del fogliame e infiorescenze verdastre inodori. Le foglie sono trilobate ed i frutti sono piccole bacche di colore bluastro",
+                                            "photo_count": 2,
                                             "children": [
                                                 {
                                                     "sid": 974010,
                                                     "name": "Vite canadese",
+                                                    "photo_count": 2,
                                                     "end": true
                                                 }
                                             ]
@@ -955,6 +973,7 @@
                                         {
                                             "sid": 874020,
                                             "name": "Foglie sopra verde scuro e verde chiaro sotto. Frutti costituiti da drupe nere raccolte in infruttescenza terminali a ombrello.",
+                                            "photo_count": 2,
                                             "children": [
                                                 {
                                                     "sid": 974020,
@@ -1057,14 +1076,17 @@
                                                 {
                                                     "sid": 100,
                                                     "name": "Lamina fogliare oblunga, lanceolata o ellittica",
+                                                    "photo_count": 3,
                                                     "children": [
                                                         {
                                                             "sid": 110,
                                                             "name": "Lamina fogliare oblunga, lanceolata",
+                                                            "photo_count": 2,
                                                             "children": [
                                                                 {
                                                                     "sid": 811010,
                                                                     "name": "Margine fogliare liscio",
+                                                                    "photo_count": 2,
                                                                     "children": [
                                                                         {
                                                                             "sid": 911010,
@@ -1167,6 +1189,7 @@
                                         {
                                             "sid": 816010,
                                             "name": "Foglie frastagliate di colore verde intenso sulla pagina superiore, e argenteo biancastra su quella inferiore, sessili le apicali, leggermente picciolate le basali, aromatiche e con margine dentato",
+                                            "photo_count": 2,
                                             "children": [
                                                 {
                                                     "sid": 916010,
@@ -1178,6 +1201,7 @@
                                         {
                                             "sid": 816020,
                                             "name": "Foglie profondamente frastagliate con nervatura biancastra, alla base opposte, alternate man mano che si sale  con piccioli alati  non aromatiche e con margine intero o dentato",
+                                            "photo_count": 2,
                                             "children": [
                                                 {
                                                     "sid": 916020,
