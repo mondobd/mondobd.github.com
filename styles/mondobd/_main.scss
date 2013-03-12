@@ -14,6 +14,7 @@ $navbar-text-shadow: #aaa;
 $description-background: rgba(30, 30, 30, 0.6);
 $description-text-color: rgba(255, 255, 255, 1);
 $main-font: 'Open Sans';
+$choice-container-base-height: 434px;
 
 body {
   font-family: $main-font;
@@ -99,6 +100,7 @@ body {
 
   img {
     width: 100%;
+    left: 0;
   }
 }
 
@@ -113,11 +115,19 @@ li.choice-group {
   margin-top: 1em;
   margin-bottom: 1em;
   padding: 1em;
-  // height: 400px;
+  /* when jquery.cycle is applied to both choices, height is not
+     set: so we set height for the whole choice group, and this should
+     be updated if the overall sizes change
+  */
+  height: $choice-container-base-height;
   background-color: $background-color;
   position: relative;
   
   @include clearfix;
+  
+  &[data-children-count="4"], &[data-children-count="3"] {
+    height: 2 * $choice-container-base-height;
+  }
   
   &:not(:last-child) {
     .choice-container {

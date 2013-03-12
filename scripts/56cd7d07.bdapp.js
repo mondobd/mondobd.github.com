@@ -1,6 +1,7 @@
-'use strict';
+(function () {
 
-define([], function() {
+
+define('app',[], function() {
 
 var tree_canvas = {
     w: 960,
@@ -243,6 +244,54 @@ function activate_colorbox(selection, d) {
   }
 }
 
+// core viz function for the teacher's handbook view
+function draw_handbook(data) {
+
+  var items_data = handbook_vis.selectAll("ul.handbook li")
+      .data(data);
+      
+  var items = items_data
+    .enter()
+      .append("li")
+      .attr("class", "item")
+      .append("dl");
+            
+  items
+    .enter().each(function(d) {
+      
+      var item = d3.select(this);
+      
+      item
+        .append("dt").text("sid");
+      item
+        .append("dd").text(d.sid);
+
+      item
+        .append("dt").text("nome");
+      item
+        .append("dd").text(d.specie);
+      
+      item
+        .append("dt").text("famiglia");
+      item
+        .append("dd").text(d.family);
+
+      item
+        .append("dt").text("nome comune");
+      item
+        .append("dd").text(d.name);
+
+      item
+        .append("dt").text("immagini");
+      item
+        .append("dd")
+        .call(add_images, d);
+    });
+
+  items_data.exit().remove();
+}
+
+// core viz function for the tree view (currently unused)
 function update_tree(source) {
 
   // Compute the new tree layout.
@@ -436,3 +485,21 @@ $(".navbar li#restart a").click(function() {
 
 return 'Hello from Yeoman!';
 });
+
+require.config({
+  shim: {
+  },
+
+  paths: {
+    hm: 'vendor/hm',
+    esprima: 'vendor/esprima',
+    jquery: 'vendor/jquery.min'
+  }
+});
+ 
+require(['app'], function(app) {
+  // use app here
+  console.log(app);
+});
+define("main", function(){});
+}());

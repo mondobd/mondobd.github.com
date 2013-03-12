@@ -234,6 +234,17 @@
                                                                                     "end": true
                                                                                 }
                                                                             ]
+                                                                        },
+                                                                        {
+                                                                            "sid": 836020,
+                                                                            "name": "Foglie con apice acuminato, verdi brillanti nella parte superiore, più chiare in quella inferiore",
+                                                                            "children": [
+                                                                                {
+                                                                                    "sid": 936020,
+                                                                                    "name": "Pero",
+                                                                                    "end": true
+                                                                                }
+                                                                            ]
                                                                         }
                                                                     ]
                                                                 }
@@ -697,7 +708,7 @@
                                                             "name": "11-13 foglioline lanceolate  con punte evidenti, base stretta, pelosette inferiormente",
                                                             "children": [
                                                                 {
-                                                                    "sid": 966010,
+                                                                    "sid": 960010,
                                                                     "name": "Frassino",
                                                                     "photo_count": 2,
                                                                     "end": true
