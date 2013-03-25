@@ -281,6 +281,7 @@ images/items/150_0.jpg
 images/items/964020_0.jpg
 images/items/610_0.jpg
 data/data.json
+data/data_flat.json
 data/cards.json
 data/glossary.csv
 scripts/vendor/214ee334.jquery.mousewheel.js
