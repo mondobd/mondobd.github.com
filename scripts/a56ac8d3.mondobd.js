@@ -1,6 +1,7 @@
-'use strict';
+(function () {
 
-define([], function() {
+
+define('app',[], function() {
 
 var tree_canvas = {
     w: 960,
@@ -20,6 +21,7 @@ var tree_canvas = {
   glossary = [],
   flexslider,
   restart_uri = window.location.pathname,
+  global_sid,
   DEBUG_MODE = true,
   TREE_VIEW = false;
 
@@ -40,11 +42,39 @@ if(TREE_VIEW) {
     .attr("transform", "translate(40,0)");
 }
 
-d3.json("data/data.json", function(json) {
+// read the cards file
+d3.json("data/cards.json", function(json) {
+  cards = json;
+});
+
+// read the glossary file
+d3.csv("data/glossary.csv", function(data) {
+  glossary = _.map(data, function(item) { return { 'key': item.key.charAt(0).toLowerCase() + item.key.slice(1), value: item.value }; });
+  
+  // debug output
+  if(DEBUG_MODE) console.log('reading glossary with ' + glossary.length + ' items');
+});
+
+d3.json("data/data_flat.json", function(json) {
   json.x0 = 800;
   json.y0 = 0;
 
-  flatten([json]);
+  // flatten([json]);
+  
+  flat_list = json;
+  
+  // check broken glossary links
+  if(DEBUG_MODE) {
+    console.log('checking glossary links');
+    _.each(flat_list, function(value, key, list) {
+      var sid = value.sid;
+      value.card = _.find(cards, function(item) { if(item.sid === sid) return true; });
+      if(value.card && value.card.card.description) {
+        global_sid = sid;
+        value.card.card.description.replace(/\{{([^\{]*?)\|([^\{]*)\}\}/g, glossary_lookup);
+      }
+    });
+  }
 
   // console.log("the whole tree!");
   // console.log(json);
@@ -55,19 +85,7 @@ d3.json("data/data.json", function(json) {
   exploration_list = [ get_children(_.find(flat_list, function(item) { return item.sid === 0; } )) ];
   // console.log("the root element!");
   // console.log(exploration_list);
-  update(exploration_list);  
-});
-
-// read the cards file
-d3.json("data/cards.json", function(json) {
-  cards = json;
-});
-
-// read the glossary file
-d3.csv("data/glossary.csv", function(data) {
-  glossary = _.map(data, function(item) { return { 'key': item.key.charAt(0).toLowerCase() + item.key.slice(1), value: item.value }; });
-  
-  if(DEBUG_MODE) console.log('reading glossary with ' + glossary.length + ' items');
+  update(exploration_list);
 });
 
 function add_click_listener(selection, d) {
@@ -190,27 +208,34 @@ function add_images(selection, d) {
   });
 }
 
+function glossary_lookup(match, text, key, offset) {
+  var definition = _.find(glossary, function(item) {
+    if(item.key === key) return true;
+  });
+  
+  if(definition) {
+    return "<abbr title='" + definition.value + "'>" + text + "</abbr>";
+  } else {
+    if(DEBUG_MODE) {
+      console.log("error in lookup: sid = " + global_sid + ", key = " + key);
+      return "<abbr title='Definizione non disponibile'>" + text + "</abbr>";
+    } else {
+      return text;
+    }
+  }
+}
+
+function description_with_glossary_lookup(description) {
+  return description.replace(/\{{([^\{]*?)\|([^\{]*)\}\}/g, glossary_lookup);
+}
+
 function activate_colorbox(selection, d) {
   if(d.end) {
     var card_data = _.find(cards, function(item) { if(item.sid === d.sid) return true; });
     
     var description = markdown.toHTML(card_data.card.description);
 
-    description = description.replace(/\{{([^\{]*?)\|([^\{]*)\}\}/g, function(match, text, key, offset) {
-      var definition = _.find(glossary, function(item) {
-        if(item.key === key) return true;
-      });
-      
-      if(definition) {
-        return "<abbr title='" + definition.value + "'>" + text + "</abbr>";
-      } else {
-        if(DEBUG_MODE) {
-          return "<abbr title='Definizione non disponibile'>" + text + "</abbr>";
-        } else {
-          return text;
-        }
-      }
-    });
+    description = description_with_glossary_lookup(description);
     
     var card = '<h1>' + card_data.card.species + '</h1>';
     card += '<h2>Famiglia: ' + card_data.card.family + '</h2>';
@@ -221,6 +246,54 @@ function activate_colorbox(selection, d) {
   }
 }
 
+// core viz function for the teacher's handbook view
+function draw_handbook(data) {
+
+  var items_data = handbook_vis.selectAll("ul.handbook li")
+      .data(data);
+      
+  var items = items_data
+    .enter()
+      .append("li")
+      .attr("class", "item")
+      .append("dl");
+            
+  items
+    .enter().each(function(d) {
+      
+      var item = d3.select(this);
+      
+      item
+        .append("dt").text("sid");
+      item
+        .append("dd").text(d.sid);
+
+      item
+        .append("dt").text("nome");
+      item
+        .append("dd").text(d.specie);
+      
+      item
+        .append("dt").text("famiglia");
+      item
+        .append("dd").text(d.family);
+
+      item
+        .append("dt").text("nome comune");
+      item
+        .append("dd").text(d.name);
+
+      item
+        .append("dt").text("immagini");
+      item
+        .append("dd")
+        .call(add_images, d);
+    });
+
+  items_data.exit().remove();
+}
+
+// core viz function for the tree view (currently unused)
 function update_tree(source) {
 
   // Compute the new tree layout.
@@ -365,6 +438,7 @@ function repeat_choice(d, i) {
   _.each(delete_range, function(item) { flexslider.removeSlide(item); });
   flexslider.flexslider(i);
   update(exploration_list);
+  $('.chosen').removeClass('chosen');
 }
 
 // Toggle children on click.
@@ -409,8 +483,26 @@ $(".navbar li#goFullScreen *").click(function() {
 });
 
 $(".navbar li#restart a").click(function() {
-  window.location = restart_uri;
+  repeat_choice(null, 0);
 });
 
 return 'Hello from Yeoman!';
 });
+
+require.config({
+  shim: {
+  },
+
+  paths: {
+    hm: 'vendor/hm',
+    esprima: 'vendor/esprima',
+    jquery: 'vendor/jquery.min'
+  }
+});
+ 
+require(['app'], function(app) {
+  // use app here
+  console.log(app);
+});
+define("main", function(){});
+}());

@@ -1,7 +1,6 @@
-(function () {
+'use strict';
 
-
-define('app',[], function() {
+define([], function() {
 
 var tree_canvas = {
     w: 960,
@@ -55,12 +54,14 @@ d3.csv("data/glossary.csv", function(data) {
   if(DEBUG_MODE) console.log('reading glossary with ' + glossary.length + ' items');
 });
 
-d3.json("data/data.json", function(json) {
+d3.json("data/data_flat.json", function(json) {
   json.x0 = 800;
   json.y0 = 0;
 
-  flatten([json]);
-
+  // flatten([json]);
+  
+  flat_list = json;
+  
   // check broken glossary links
   if(DEBUG_MODE) {
     console.log('checking glossary links');
@@ -436,6 +437,7 @@ function repeat_choice(d, i) {
   _.each(delete_range, function(item) { flexslider.removeSlide(item); });
   flexslider.flexslider(i);
   update(exploration_list);
+  $('.chosen').removeClass('chosen');
 }
 
 // Toggle children on click.
@@ -480,26 +482,8 @@ $(".navbar li#goFullScreen *").click(function() {
 });
 
 $(".navbar li#restart a").click(function() {
-  window.location = restart_uri;
+  repeat_choice(null, 0);
 });
 
 return 'Hello from Yeoman!';
 });
-
-require.config({
-  shim: {
-  },
-
-  paths: {
-    hm: 'vendor/hm',
-    esprima: 'vendor/esprima',
-    jquery: 'vendor/jquery.min'
-  }
-});
- 
-require(['app'], function(app) {
-  // use app here
-  console.log(app);
-});
-define("main", function(){});
-}());
