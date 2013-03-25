@@ -303,4 +303,5 @@ styles/mondobd/vendor/colorbox/images/overlay.png
 
 NETWORK:
 *
-
+http://*
+https://*
