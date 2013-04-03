@@ -178,6 +178,11 @@ li.choice-group {
   #cboxLoadedContent {
     overflow-y: scroll;
   }
+  
+  span.glossary {
+    border-bottom: 1px solid black;
+    border-bottom-style: dotted;
+  }
 }
 
 /* Twitter Boostrap overrides */
